@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sysco-python-app-1
+  description: A python application as a test component named - sysco-python-app-1
+  annotations:
+    github.com/project-slug: kezri-29/sysco-python-app-1
+    backstage.io/techdocs-ref: dir:.
+    scorecard/jsonDataUrl: https://raw.githubusercontent.com/kezri-29/sysco-python-app-1/refs/heads/main/component-score.json
+    jira.com/project-key: MYSCRUMKEY
+    jira.com/incoming-issues-status: "To Do"
+    sonarqube.org/project-key: kezri29_python-app
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
