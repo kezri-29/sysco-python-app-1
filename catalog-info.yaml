@@ -8,6 +8,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     scorecard/jsonDataUrl: https://raw.githubusercontent.com/kezri-29/sysco-python-app-1/refs/heads/main/component-score.json
     argocd/app-name: sysco-python-app-1
+    jenkins.io/job-full-name: Sysco-Sample-Testing/sysco-python-app-1
+    concourse-ci.org/pipeline-name: sysco-python-app-1-build
 spec:
   type: service
   owner: development
